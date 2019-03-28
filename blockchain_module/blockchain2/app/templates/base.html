@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="{{url_for('static',filename='js/main.js')}}" type="text/javascript"></script>
+  </head>
+  <body background="download.jpeg">
+    <div><a href="/index">Home</a></div>
+    <center><h1>{{ title }}</h1></center>
+    <hr>
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul>
+    {% for message in messages %}
+        <li>{{ message }} </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+    {% block content %}{% endblock %}
+  </body>
+</html>
