@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>qSpace Spoogle</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+<body>
+	
+	<div style="width: 100%; height: 50px;background-color: transparent;">
+		<span style="color: rgb(231,232,229);float:right;margin-right: 100px;margin-top: 15px;"><i class="fas fa-user"></i>  Harsh Kumar</span>
+	</div>
+	
+	<div style="width: 100%; height: 300px;background-color: transparent;margin-top: 150px;">
+		<span style="color:  rgb(231,232,229);margin-left: 474px;font-size: 90px;font-weight: 650;">SPOOGLE</span><br>
+		<input type="text" name="search" placeholder="Search" style="margin-left: 392px;width: 580px;height: 37px;margin-top: 20px;border-radius: 25px;padding: 8px;box-shadow: 1px 0px 2px 1px rgb(231,232,229);background-color: rgb(231,232,229);font-size: 20px;"><br>
+		<a href="https://en.wikipedia.org/wiki/Exoplanet"><button style="border: 2px solid white;">Explore</button></a>
+	</div>
+	
+
+
+	
+
+	
+
+
+
+
+	
+	<div style="height: 100%;width: 100%;" id="particles-js"></div> 
+	<script type="text/javascript">
+      particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px';  count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+  </script>
+        
+
+</body>
+</html>
