@@ -1,0 +1,1 @@
+UPLOAD_FOLDER="/Users/HimanshDesktop/python_blockchain_app/uploads/"
