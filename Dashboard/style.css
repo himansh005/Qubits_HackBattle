@@ -1,0 +1,77 @@
+body{
+		background-color: rgb(2,8,11);
+		font-family: 'Open Sans', sans-serif;
+
+	}
+
+h1{
+	color: rgb(231,232,229);
+	margin: 0;
+	float: left;
+	margin-left: 200px;
+	margin-top: 30px;
+
+}
+
+
+p{
+	color: rgb(231,232,229);
+	float: right;
+	margin-right: 200px;
+	margin-top: 40px;
+	
+}
+
+h2{
+	color: rgb(2,8,11);
+	margin-top: 160px;
+}
+
+/*SCROLLBAR*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(2,8,11); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(2,8,11); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(2,8,11); 
+}
+/*SCROLLBAR ENDS*/
+
+#def{
+
+	margin-top: 210px;
+	color: white;
+	text-align: center;
+	
+}
+
+input{
+	padding: 5px;
+	border-radius: 2%;
+	border: none;
+	background-color: rgb(231,232,229);
+}
+
+button{
+	margin-top: 30px;
+	margin-left: 626px;
+	width: 120px;
+	height: 40px;
+	border: 1px solid white;
+	background-color: transparent;
+	color:  rgb(231,232,229);
+	font-size: 20px;
+}
+
